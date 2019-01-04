@@ -1,0 +1,36 @@
+body,html{
+	height: 100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+}
+.btn{
+background-color: white;
+color:blue;
+}
+section{
+	height: 100%;
+	display: table;
+	width: 100%;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+.land{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+	text-align: center;
+}
+.h1{
+	color: white;
+	position: relative;
+	bottom:95px;
+	font-family:serif;
+}
+.h1:hover{
+	cursor:default;
+}
